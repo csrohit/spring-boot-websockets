@@ -6,7 +6,6 @@ public class Message {
     private String text;
 
     // getters and setters
-
     public String getFrom() {
         return from;
     }
@@ -24,8 +23,6 @@ public class Message {
     }
 
     public Message(String from, String text) {
-
-
         this.from = from;
         this.text = text;
     }
